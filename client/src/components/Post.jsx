@@ -57,7 +57,7 @@ function Post({ post }) {
   const [menu, setMenu] = useState(false);
 
   return (
-    <div className="flex flex-col gap-3 shadow-md rounded-lg sm:p-2 p-1 relative">
+    <div className="flex flex-col gap-3 shadow-md rounded-lg p-2 relative">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img

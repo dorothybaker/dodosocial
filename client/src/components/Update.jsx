@@ -40,6 +40,8 @@ export default function Update({ setUpdate, user }) {
       setLoading(false);
       setUpdate(false);
     }
+
+    window.location.reload();
   };
 
   return (
