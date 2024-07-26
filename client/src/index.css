@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/gerant");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Gerant" !important;
+  @apply !tracking-wide;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.card {
+  background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.4)),
+    url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card2 {
+  background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.4)),
+    url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
