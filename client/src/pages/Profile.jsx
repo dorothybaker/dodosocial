@@ -70,7 +70,7 @@ function Profile() {
           className="absolute left-0 right-0 mx-auto sm:top-[130px] sm:w-[130px] sm:h-[130px] h-[100px] top-[100px] w-[100px] rounded-full object-cover"
         />
       </div>
-      <div className="px-4 flex flex-col gap-4">
+      <div className="px-4 pb-2 flex flex-col gap-4">
         <div className="shadow-md w-[95%] mx-auto min-h-[180px] flex items-end justify-center">
           <div className="flex flex-col items-center gap-2 py-4  justify-center text-center">
             <div className="flex flex-col items-center font-medium">
